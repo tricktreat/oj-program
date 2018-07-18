@@ -14,7 +14,8 @@
 
 #### Kruskal算法
 
-![](./kruskal.cpp)
+[代码](./kruskal.cpp)
+边的排序最费时，算法复杂度为O(|E|log|V|)
 
 ### 二叉树遍历
 
@@ -44,7 +45,8 @@
 
 ### 并查集
 
-![](./union_find.cpp)
+[代码](./union_find.cpp)
+合并时优化树结构+查询时优化树结构（路径压缩），算法复杂度为O(ackermann(n))，比O(nlog(n))要快。
 
 ## 字符串
 
