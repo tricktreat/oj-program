@@ -1,48 +1,48 @@
 ## LeetCode题目
 
-### leetcode55
+### [leetcode55](https://leetcode.com/problems/jump-game/)
+
+动态规划
+
+### [leetcode94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 中序遍历。
 
-### leetcode94
-
-中序遍历。
-
-### leetcode98
+### [leetcode98](https://leetcode.com/problems/validate-binary-search-tree/)
 
 BST判断，中序遍历
 
-### leetcode99
+### [leetcode99](https://leetcode.com/problems/recover-binary-search-tree/)
 
 交换节点，满足二叉搜索树。中序遍历的两种实现。（问题的本质是在序列中找到两个元素，交换位置以后使得序列满足升序。二叉搜索树的中序序列恰好是升序的，所以交换已对元素调整为升序序列即可使二叉搜索树合理）
 
-### leetcode100
+### [leetcode100](https://leetcode.com/problems/same-tree/)
 
 判断两个二叉树是否相等，同构二叉树判断代码类似。
 
-### leetcode105
+### [leetcode105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 前序遍历和中序遍历构建二叉树。
 
-### leetcode106
+### [leetcode106](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 后序遍历和中序遍历构建二叉树。
 
-### leetcode112
+### [leetcode112](https://leetcode.com/problems/path-sum/)
 
 二叉树某条从根节点到叶节点的路径权重和是否等于指定数值。
 
-### leetcode113
+### [leetcode113](https://leetcode.com/problems/path-sum-ii/)
 
 在112的基础上输出所有满足条件的路径。南大开放日2017年上机题。
 
-### leetcode437
+### [leetcode437](https://leetcode.com/problems/path-sum-iii/)
 
 在113的基础上放松了一下条件，路径可以为自上而下的任意一条路径，不一定要从根到叶。保存序列和，dfs过程中判断指定数值与当前序列和和历史序列和之差是否相等。
 
 ## pat题目
 
-### [pat1004](https://vjudge.net/problem/pat-1004)
+### [pat1004](https://pintia.cn/problem-sets/994805342720868352/problems/994805521431773184)
 
 树的每一层叶子节点个数。可以用结构体来记录节点层数（构造一棵树），也可以在层序遍历
 
