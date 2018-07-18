@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Anthony/Desktop/pat/uva10306.cpp
+C:/Users/Anthony/Desktop/pat/poj/poj3255.cpp
 iostream
+-
+cstring
+-
+vector
 -
 algorithm
 -
-cstring
+map
+-
+queue
 -
 

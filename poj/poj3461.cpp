@@ -41,7 +41,7 @@ int kmpcount(){
 		if(j == m)
 		{
 			count++;
-			j = ne[j];
+			j = ne[j];//找下一个子串
 		}
 	}
 	return count;

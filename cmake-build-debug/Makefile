@@ -122,32 +122,32 @@ pat/fast:
 	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/build
 .PHONY : pat/fast
 
-uva10306.obj: uva10306.cpp.obj
+poj/poj3255.obj: poj/poj3255.cpp.obj
 
-.PHONY : uva10306.obj
+.PHONY : poj/poj3255.obj
 
 # target to build an object file
-uva10306.cpp.obj:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/uva10306.cpp.obj
-.PHONY : uva10306.cpp.obj
+poj/poj3255.cpp.obj:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3255.cpp.obj
+.PHONY : poj/poj3255.cpp.obj
 
-uva10306.i: uva10306.cpp.i
+poj/poj3255.i: poj/poj3255.cpp.i
 
-.PHONY : uva10306.i
+.PHONY : poj/poj3255.i
 
 # target to preprocess a source file
-uva10306.cpp.i:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/uva10306.cpp.i
-.PHONY : uva10306.cpp.i
+poj/poj3255.cpp.i:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3255.cpp.i
+.PHONY : poj/poj3255.cpp.i
 
-uva10306.s: uva10306.cpp.s
+poj/poj3255.s: poj/poj3255.cpp.s
 
-.PHONY : uva10306.s
+.PHONY : poj/poj3255.s
 
 # target to generate assembly for a file
-uva10306.cpp.s:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/uva10306.cpp.s
-.PHONY : uva10306.cpp.s
+poj/poj3255.cpp.s:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3255.cpp.s
+.PHONY : poj/poj3255.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... pat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... uva10306.obj
-	@echo ... uva10306.i
-	@echo ... uva10306.s
+	@echo ... poj/poj3255.obj
+	@echo ... poj/poj3255.i
+	@echo ... poj/poj3255.s
 .PHONY : help
 
 

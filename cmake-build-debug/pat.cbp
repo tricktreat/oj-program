@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Anthony/Desktop/pat/uva10306.cpp">
+		<Unit filename="C:/Users/Anthony/Desktop/pat/poj/poj3255.cpp">
 			<Option target="pat"/>
 		</Unit>
 		<Unit filename="C:/Users/Anthony/Desktop/pat/CMakeLists.txt">

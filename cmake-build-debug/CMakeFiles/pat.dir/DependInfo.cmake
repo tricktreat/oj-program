@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Anthony/Desktop/pat/uva10306.cpp" "C:/Users/Anthony/Desktop/pat/cmake-build-debug/CMakeFiles/pat.dir/uva10306.cpp.obj"
+  "C:/Users/Anthony/Desktop/pat/poj/poj3255.cpp" "C:/Users/Anthony/Desktop/pat/cmake-build-debug/CMakeFiles/pat.dir/poj/poj3255.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
