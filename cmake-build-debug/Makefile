@@ -122,32 +122,32 @@ pat/fast:
 	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/build
 .PHONY : pat/fast
 
-poj/poj3723.obj: poj/poj3723.cpp.obj
+poj/poj3311.obj: poj/poj3311.cpp.obj
 
-.PHONY : poj/poj3723.obj
+.PHONY : poj/poj3311.obj
 
 # target to build an object file
-poj/poj3723.cpp.obj:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3723.cpp.obj
-.PHONY : poj/poj3723.cpp.obj
+poj/poj3311.cpp.obj:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3311.cpp.obj
+.PHONY : poj/poj3311.cpp.obj
 
-poj/poj3723.i: poj/poj3723.cpp.i
+poj/poj3311.i: poj/poj3311.cpp.i
 
-.PHONY : poj/poj3723.i
+.PHONY : poj/poj3311.i
 
 # target to preprocess a source file
-poj/poj3723.cpp.i:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3723.cpp.i
-.PHONY : poj/poj3723.cpp.i
+poj/poj3311.cpp.i:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3311.cpp.i
+.PHONY : poj/poj3311.cpp.i
 
-poj/poj3723.s: poj/poj3723.cpp.s
+poj/poj3311.s: poj/poj3311.cpp.s
 
-.PHONY : poj/poj3723.s
+.PHONY : poj/poj3311.s
 
 # target to generate assembly for a file
-poj/poj3723.cpp.s:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3723.cpp.s
-.PHONY : poj/poj3723.cpp.s
+poj/poj3311.cpp.s:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3311.cpp.s
+.PHONY : poj/poj3311.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... pat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... poj/poj3723.obj
-	@echo ... poj/poj3723.i
-	@echo ... poj/poj3723.s
+	@echo ... poj/poj3311.obj
+	@echo ... poj/poj3311.i
+	@echo ... poj/poj3311.s
 .PHONY : help
 
 

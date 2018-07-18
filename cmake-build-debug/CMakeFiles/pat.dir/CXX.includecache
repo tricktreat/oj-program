@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Anthony/Desktop/pat/poj/poj3723.cpp
-iostream
--
-cstring
+C:/Users/Anthony/Desktop/pat/poj/poj3311.cpp
+cstdio
 -
 algorithm
+-
+cstring
 -
 

@@ -4,4 +4,4 @@ project(pat)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(pat
-    poj/poj3723.cpp)
+    poj/poj3311.cpp)

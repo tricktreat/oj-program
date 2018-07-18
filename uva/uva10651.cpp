@@ -1,4 +1,4 @@
-#include<iostream>
+  #include<iostream>
 #include<cstring>
 
 #define MAXN (1<<12)
