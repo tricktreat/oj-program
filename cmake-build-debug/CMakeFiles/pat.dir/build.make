@@ -56,38 +56,38 @@ include CMakeFiles/pat.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pat.dir/flags.make
 
-CMakeFiles/pat.dir/poj/poj3255.cpp.obj: CMakeFiles/pat.dir/flags.make
-CMakeFiles/pat.dir/poj/poj3255.cpp.obj: ../poj/poj3255.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Desktop\pat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pat.dir/poj/poj3255.cpp.obj"
-	"E:\Program Files\MinGW\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pat.dir\poj\poj3255.cpp.obj -c C:\Users\Anthony\Desktop\pat\poj\poj3255.cpp
+CMakeFiles/pat.dir/poj/poj3723.cpp.obj: CMakeFiles/pat.dir/flags.make
+CMakeFiles/pat.dir/poj/poj3723.cpp.obj: ../poj/poj3723.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anthony\Desktop\pat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pat.dir/poj/poj3723.cpp.obj"
+	"E:\Program Files\MinGW\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pat.dir\poj\poj3723.cpp.obj -c C:\Users\Anthony\Desktop\pat\poj\poj3723.cpp
 
-CMakeFiles/pat.dir/poj/poj3255.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pat.dir/poj/poj3255.cpp.i"
-	"E:\Program Files\MinGW\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anthony\Desktop\pat\poj\poj3255.cpp > CMakeFiles\pat.dir\poj\poj3255.cpp.i
+CMakeFiles/pat.dir/poj/poj3723.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pat.dir/poj/poj3723.cpp.i"
+	"E:\Program Files\MinGW\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anthony\Desktop\pat\poj\poj3723.cpp > CMakeFiles\pat.dir\poj\poj3723.cpp.i
 
-CMakeFiles/pat.dir/poj/poj3255.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pat.dir/poj/poj3255.cpp.s"
-	"E:\Program Files\MinGW\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anthony\Desktop\pat\poj\poj3255.cpp -o CMakeFiles\pat.dir\poj\poj3255.cpp.s
+CMakeFiles/pat.dir/poj/poj3723.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pat.dir/poj/poj3723.cpp.s"
+	"E:\Program Files\MinGW\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anthony\Desktop\pat\poj\poj3723.cpp -o CMakeFiles\pat.dir\poj\poj3723.cpp.s
 
-CMakeFiles/pat.dir/poj/poj3255.cpp.obj.requires:
+CMakeFiles/pat.dir/poj/poj3723.cpp.obj.requires:
 
-.PHONY : CMakeFiles/pat.dir/poj/poj3255.cpp.obj.requires
+.PHONY : CMakeFiles/pat.dir/poj/poj3723.cpp.obj.requires
 
-CMakeFiles/pat.dir/poj/poj3255.cpp.obj.provides: CMakeFiles/pat.dir/poj/poj3255.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3255.cpp.obj.provides.build
-.PHONY : CMakeFiles/pat.dir/poj/poj3255.cpp.obj.provides
+CMakeFiles/pat.dir/poj/poj3723.cpp.obj.provides: CMakeFiles/pat.dir/poj/poj3723.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3723.cpp.obj.provides.build
+.PHONY : CMakeFiles/pat.dir/poj/poj3723.cpp.obj.provides
 
-CMakeFiles/pat.dir/poj/poj3255.cpp.obj.provides.build: CMakeFiles/pat.dir/poj/poj3255.cpp.obj
+CMakeFiles/pat.dir/poj/poj3723.cpp.obj.provides.build: CMakeFiles/pat.dir/poj/poj3723.cpp.obj
 
 
 # Object files for target pat
 pat_OBJECTS = \
-"CMakeFiles/pat.dir/poj/poj3255.cpp.obj"
+"CMakeFiles/pat.dir/poj/poj3723.cpp.obj"
 
 # External object files for target pat
 pat_EXTERNAL_OBJECTS =
 
-pat.exe: CMakeFiles/pat.dir/poj/poj3255.cpp.obj
+pat.exe: CMakeFiles/pat.dir/poj/poj3723.cpp.obj
 pat.exe: CMakeFiles/pat.dir/build.make
 pat.exe: CMakeFiles/pat.dir/linklibs.rsp
 pat.exe: CMakeFiles/pat.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/pat.dir/build: pat.exe
 
 .PHONY : CMakeFiles/pat.dir/build
 
-CMakeFiles/pat.dir/requires: CMakeFiles/pat.dir/poj/poj3255.cpp.obj.requires
+CMakeFiles/pat.dir/requires: CMakeFiles/pat.dir/poj/poj3723.cpp.obj.requires
 
 .PHONY : CMakeFiles/pat.dir/requires
 

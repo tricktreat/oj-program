@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Anthony/Desktop/pat/poj/poj3255.cpp
+C:/Users/Anthony/Desktop/pat/poj/poj3723.cpp
 iostream
 -
 cstring
 -
-vector
--
 algorithm
--
-map
--
-queue
 -
 
