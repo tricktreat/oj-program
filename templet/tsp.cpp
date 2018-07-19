@@ -38,7 +38,7 @@ void solve(){
 		fill(dp[s],dp[s]+n,INF);
 	}
 
-	dp[0][0]=0;//最小规模问题解，dp由这里开始更新
+	dp[(1<<n)-1][0]=0;//最小规模问题解，dp由这里开始更新
 
 	//更新的顺序为：已访问的城市由多到少，目前所在城市首先为0，其他顺序可随意
 	for (int s = (1<<n)-1; s>=0 ; s--)
@@ -47,11 +47,14 @@ void solve(){
 		{
 			for (int v = 0; v < n; ++v)
 			{
-				dp[s][i]=min(dp[s|1<<v][v]+dist[i][v],dp[s][i]);
+				if (!(1<<v&u))
+				{
+					dp[s][i]=min(dp[s|1<<v][v]+dist[i][v],dp[s][i]);
+				}
 			}
 			
 		}
 	}
 
-	cout<<dp(0,0)<<endl;
+	cout<<dp[0][0]<<endl;
 }

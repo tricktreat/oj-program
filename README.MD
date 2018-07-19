@@ -2,7 +2,7 @@
 
 ### [leetcode55](https://leetcode.com/problems/jump-game/)
 
-动态规划
+动态规划，南大开放日2017年上机题。
 
 ### [leetcode94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
@@ -205,6 +205,10 @@ dp，哎状态转移方程没想出来。定义大整数结构体
 ### [poj3311](https://vjudge.net/problem/POJ-3311)
 
 状态压缩dp。旅行商问题+Floyd多源最短路径
+
+### [poj2686](https://vjudge.net/problem/POJ-2686)
+
+状态压缩dp。状态压缩+dijkstra，把状态看成图的节点（对船票集合动态压缩），状态转移看成边。最终把道路网转换成各边代价确定的状态转移图（cost根据俩个状态节点的关系计算出），在用dijkstra算法求源点到终点的最小距离。这里仅仅是两点间的最短距离，不需要用dijkstra算法，普通的dp就可以。
 
 ### [uva590](https://vjudge.net/problem/uva-590)
 
