@@ -46,7 +46,7 @@ int main(){
 		
 		twodimknap();
 		int ans=1<<20;
-		for (int j = 0; j <= s; ++j)
+		for (int j = 0; j <= s; ++j)//组合俩个维度考虑符合要求的解
 		{
 			for (int k = 0; k <= s; ++k)
 			{

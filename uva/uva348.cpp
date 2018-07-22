@@ -13,12 +13,12 @@ int n;
 
 void matrixchain(){
 	memset(dp,0,sizeof(dp));
-	for (int i = 2; i <= n; ++i)
+	for (int i = 2; i <= n; ++i)//长度
 	{
-		for (int s = 0; s <= n-i; ++s)
+		for (int s = 0; s <= n-i; ++s)//起点
 		{
-			int e=s+i-1;
-			dp[s][e]=dp[s+1][e]+h[s]*w[s]*w[e];//长度为2时此处更新完毕
+			int e=s+i-1;//终点
+			dp[s][e]=dp[s][s]+dp[s+1][e]+h[s]*w[s]*w[e];//长度为2时此处更新完毕
 			rec[s][e]=s;
 			for (int k = s+1; k < e; ++k)//长度为2时不进入
 			{

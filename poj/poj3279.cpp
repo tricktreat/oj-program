@@ -15,7 +15,7 @@ int place(int i,int j){
 	sum+=answer[i][j+1];
 	sum+=answer[i][j-1];
     sum+=answer[i][j];
-	sum+=grid[i-1][j-1];
+	sum+=grid[i-1][j-1];//answer下边从1开始（默认第0列、第0行为0），grid下标从0开始
 
 	if(sum%2==1){
 		return 1;
@@ -23,12 +23,12 @@ int place(int i,int j){
 	return 0;
 }
 
-void cacanswer(){
+void cacanswer(){//计算2-m行
 	for (int i = 2; i <= m; ++i)
 	{
 		for (int j = 1; j <=n; ++j)
 		{
-			answer[i][j]=place(i-1,j);
+			answer[i][j]=place(i-1,j);//根据上一行状态确定下一行
 		}
 	}
 }

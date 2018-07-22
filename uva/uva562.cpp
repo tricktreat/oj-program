@@ -11,6 +11,7 @@ int sum;
 int coins[MAXN];
 int dp[MAXSUM];
 
+//分成俩份，总价值的差值尽可能小
 void dkap(){
 	memset(dp,0,sizeof(dp));
 	for (int i = 0; i < m; ++i)

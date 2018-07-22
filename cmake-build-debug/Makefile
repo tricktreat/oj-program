@@ -122,32 +122,32 @@ pat/fast:
 	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/build
 .PHONY : pat/fast
 
-poj/poj3311.obj: poj/poj3311.cpp.obj
+nju_summercamp/pathsum.obj: nju_summercamp/pathsum.cpp.obj
 
-.PHONY : poj/poj3311.obj
+.PHONY : nju_summercamp/pathsum.obj
 
 # target to build an object file
-poj/poj3311.cpp.obj:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3311.cpp.obj
-.PHONY : poj/poj3311.cpp.obj
+nju_summercamp/pathsum.cpp.obj:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.obj
+.PHONY : nju_summercamp/pathsum.cpp.obj
 
-poj/poj3311.i: poj/poj3311.cpp.i
+nju_summercamp/pathsum.i: nju_summercamp/pathsum.cpp.i
 
-.PHONY : poj/poj3311.i
+.PHONY : nju_summercamp/pathsum.i
 
 # target to preprocess a source file
-poj/poj3311.cpp.i:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3311.cpp.i
-.PHONY : poj/poj3311.cpp.i
+nju_summercamp/pathsum.cpp.i:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.i
+.PHONY : nju_summercamp/pathsum.cpp.i
 
-poj/poj3311.s: poj/poj3311.cpp.s
+nju_summercamp/pathsum.s: nju_summercamp/pathsum.cpp.s
 
-.PHONY : poj/poj3311.s
+.PHONY : nju_summercamp/pathsum.s
 
 # target to generate assembly for a file
-poj/poj3311.cpp.s:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/poj/poj3311.cpp.s
-.PHONY : poj/poj3311.cpp.s
+nju_summercamp/pathsum.cpp.s:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.s
+.PHONY : nju_summercamp/pathsum.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... pat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... poj/poj3311.obj
-	@echo ... poj/poj3311.i
-	@echo ... poj/poj3311.s
+	@echo ... nju_summercamp/pathsum.obj
+	@echo ... nju_summercamp/pathsum.i
+	@echo ... nju_summercamp/pathsum.s
 .PHONY : help
 
 

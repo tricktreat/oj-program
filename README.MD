@@ -48,6 +48,14 @@ BST判断，中序遍历
 
 ## 字符串
 
+### [uva620](https://vjudge.net/problem/uva-620)
+
+字符串的格式分类。递归
+
+### [leetcode125](https://leetcode.com/problems/valid-palindrome/)
+
+回文序列，考虑要全面，注意细节和特例呀
+
 ### [hdu1711](https://vjudge.net/problem/hdu-1711)
 
 字符串匹配，kmp算法，得到首次匹配的头索引。
@@ -86,11 +94,23 @@ BST判断，中序遍历
 
 类似于n后问题，主要是构造出约束函数，
 
+### [poj2631](https://vjudge.net/problem/poj-2631)
+
+连通图的直径问题，先从任意七点出发dfs(bfs)搜索到最远处（直径的一端），再从最远处dfs(bfs)搜索达到直径的另一端。
+
+### [poj3279](https://vjudge.net/problem/poj-3279)
+
+只要确定第一行的状态，其他行的状态就确定了。这里dfs第一行，找出最优解。
+
 ## bfs
+
+### [poj2251](https://vjudge.net/problem/poj-2251)
+
+走出一个三维迷宫。
 
 ### [poj3287](https://vjudge.net/problem/poj-3287)
 
-bfs过程中对出界进行判断，对遍历的层数进行记录（设置结尾标记变量或者结构体记录节点层数或者数组记录层数，后面两种方法均是于父节点建立+1递推关系）
+南大上机题。bfs过程中对出界进行判断，对遍历的层数进行记录（设置结尾标记变量或者结构体记录节点层数或者数组记录层数，后面两种方法均是于父节点建立+1递推关系）
 
 ## 动态规划
 
@@ -208,7 +228,15 @@ dp，哎状态转移方程没想出来。定义大整数结构体
 
 ### [poj2686](https://vjudge.net/problem/POJ-2686)
 
-状态压缩dp。状态压缩+dijkstra，把状态看成图的节点（对船票集合动态压缩），状态转移看成边。最终把道路网转换成各边代价确定的状态转移图（cost根据俩个状态节点的关系计算出），在用dijkstra算法求源点到终点的最小距离。这里仅仅是两点间的最短距离，不需要用dijkstra算法，普通的dp就可以。
+状态压缩dp。状态压缩+dijkstra，把状态看成图的节点（对船票集合动态压缩），状态转移看成边。最终把道路网转换成各边代价确定的状态转移图（cost根据俩个状态节点的关系计算出），在用dijkstra算法求源点到终点的最小距离。这里仅仅是两点间的最短距离，不需要用dijkstra算法，普通的dp就可以。注意更新dp数组的顺序和值的初始化。
+
+### [poj2411](https://vjudge.net/problem/POJ-2411)
+
+状态压缩dp。铺瓷砖
+
+### [poj3734](https://vjudge.net/problem/POJ-3734)
+
+矩阵优化+dp
 
 ### [uva590](https://vjudge.net/problem/uva-590)
 

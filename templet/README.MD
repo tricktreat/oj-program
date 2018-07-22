@@ -43,29 +43,64 @@
 
 ## 动态规划
 
+### 典型题目
+
+题集：[uva116](../uva/uva116.cpp) [uva825 计数](../uva/uva825.cpp)
+
+### dag
+
+[代码](./dag.cpp)
+题集：[uva103](../uva/uva103.cpp) [uva10051 隐式dag](../uva/uva10051.cpp) [uva437 隐式dag](../uva/uva437.cpp) 
+
 ### 0/1背包
+
+[代码](./dkap0_1)
+题集：[uva624 考虑阶段信息回溯解](../uva/uva624.cpp) [uva10130](../uva/uva10130.cpp) [uva562 分成俩份，总价值的差值尽可能小](../uva/uva562.cpp)
+
+注意dp数组的初始化，对应着不同的题目要求。下同
 
 ### 完全背包
 
+题集：[uva10465 写法上稍微不一样](../uva/uva10465.cpp)
+
 ### 多重背包
+
+### 二维背包问题
+
+[代码](./dkap_2_dims.cpp)
+题集：[uva10306](../uva/uva10306.cpp)
 
 ### 最长公共子序列
 
+序列中元素具有某种有向联系的可以考虑lis模型求解，比如矩形嵌套，砖块堆积等
+
+[代码](./lcs.cpp)
+题集：[uva10066](../uva/uva10066.cpp) [uva10192](../uva/uva10192.cpp) [uva10069](../uva/uva10069.cpp) [uva10131 此例体会lis和lcs的联系](../uva/uva10131.cpp) [uva437](../uva/uva437.cpp) 
+
 ### 最长递增序列
 
-### 硬币划分/划分数
+[dp代码](./lis_dp.cpp) [O(nlogn)代码](./lis_best.cpp)
+题集：[uva10534 这道题很巧妙](../uva/uva10534.cpp) [uva10051](../uva/uva10051.cpp) [uva10131 此例体会lis和lcs的联系](../uva/uva10131.cpp) [uva10285 此例拓展到二维](../uva/uva10285.cpp)
 
-题集：[uva674](../uva/uva674.cpp)
+### 硬币划分/划分数
+[代码](./divide.cpp)
+题集：[uva674](../uva/uva674.cpp) [uva357](../uva/uva357.cpp)
 
 ### 区间dp
 
-题集：[uva10003](../uva/uva10003.cpp)
+cost函数有所区别，注意初始化值。
+
+题集：[uva10003 切木头 递归](../uva/uva10003.cpp) [uva348 矩阵链乘 dp](../uva/uva348.cpp) 
 
 ### 状态压缩dp
 
 [旅行商问题](./tsp.cpp)
 
 题集：[uva10651](../uva/uva10651.cpp) [poj3311](../poj/poj3311.cpp) [poj2686](../poj/poj2686.cpp)
+
+### 游戏对弈
+
+题集：[uva10404](../uva/uva10404.cpp)
 
 ## dfs
 
@@ -86,11 +121,15 @@
 
 ### KMP算法
 
+[代码](./kmp.cpp)
+
+题集：[leetcode28](../leetcode/leetcode28)
+
 ## 数学相关
 
 ### 最大公约数
 
-[代码](./代码.cpp)
+[代码](./euclidean.cpp)
 辗转相除法（欧几里得算法）,算法复杂度为O(log max(x,y))
 
 ### 素数
@@ -100,3 +139,11 @@
 #### 埃氏筛法
 
 [代码](./sieve.cpp) 区间内筛素数相同思想
+
+### 快速幂运算
+
+[代码](./fast_pow.cpp) 递归的形式更好理解，当n为偶数时，x^n转化为(x^2)^(n/2)，当n为奇数时，x^n转化为((x^2)^(n/2))* x。每次规模减半，时间复杂度为O(logn)。
+
+#### 矩阵的快速幂运算
+
+[代码](./fast_matrix_pow.cpp) 利用快速幂运算的原理。

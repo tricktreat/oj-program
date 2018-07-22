@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Anthony/Desktop/pat/poj/poj3311.cpp
+C:/Users/Anthony/Desktop/pat/nju_summercamp/pathsum.cpp
 cstdio
 -
-algorithm
--
-cstring
+cmath
 -
 

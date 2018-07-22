@@ -1,10 +1,3 @@
-#include<iostream>
-#include<algorithm>
-#include<cstring>
-#define MAXN 7500
-
-using namespace std;
-
 int c[5]={1,5,10,25,50};
 int dp[MAXN];
 int dp2[MAXN][5];
@@ -30,20 +23,4 @@ int solve(int s, int i) {
 		dp2[s][i] += solve( s - c[j],j);
 
 	return dp2[s][i];
-}
-
-
-int main(){
-	while(cin>>m){
-		memset(dp2,-1,sizeof(dp2));
-		memset(dp,0,sizeof(dp));
-
-		for (int i = 0; i < 5; ++i)
-		{
-			dp2[0][i]=1;
-		}
-		changecoin();
-		cout<<dp[m]<<endl;
-		//cout<<solve(m,0)<<endl;
-	}
 }

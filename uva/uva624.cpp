@@ -14,12 +14,12 @@ int vis[MAXM][MAXM];
 
 void dkap(){
 	memset(dp,0,sizeof(dp));
-	memset( ,0,sizeof(vis));
+	memset(vis ,0,sizeof(vis));
 	for (int i = 0; i < n; ++i)
 	{
 		for (int j = m; j >= tracks[i]; --j)
 		{
-			if (dp[j]<=dp[j-tracks[i]]+tracks[i])
+			if (dp[j]<=dp[j-tracks[i]]+tracks[i])//w和p相同度量，尽可能多的装满
 			{
 				dp[j]=dp[j-tracks[i]]+tracks[i];
 				vis[j][i]=1;

@@ -17,7 +17,7 @@ vector <int>::iterator it;
 // 	inc[0]=1;
 // 	for (int i = 1; i < n; ++i)
 // 	{
-// 		inc[0]=1;
+// 		inc[i]=1;
 // 		for (int j = 0; j < i; ++j)
 // 		{
 // 			if (seq[i]>seq[j])
