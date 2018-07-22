@@ -53,7 +53,7 @@ int main(){
 		{
 			memset(arr,0,sizeof(arr));
 
-			for (int j = i; j < n; ++j)//行号中点
+			for (int j = i; j < n; ++j)//行号终点
 			{
 				for (int k = 0; k < n; ++k)
 				{
