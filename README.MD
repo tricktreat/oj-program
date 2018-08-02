@@ -104,6 +104,10 @@ BST判断，中序遍历
 
 ## bfs
 
+### [poj3126](https://vjudge.net/problem/poj-3126)
+
+素数转移路径。
+
 ### [poj2251](https://vjudge.net/problem/poj-2251)
 
 走出一个三维迷宫。
