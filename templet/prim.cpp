@@ -29,7 +29,7 @@ int prim(){
 		used[v]=1;
 		res+=mincost[v];
 
-		//更新和v邻接的点到树的距离，在这里与地价款时突然不同
+		//更新和v邻接的点到树的距离，在这里与dijkstra不同
 		for (int i = 0; i < V; ++i)
 		{
 			mincost[i]=min(mincost[i],cost[v][i]);

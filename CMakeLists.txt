@@ -3,5 +3,4 @@ project(pat)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(pat
-    nju_summercamp/pathsum.cpp)
+add_executable(pat zju_septembertest/euleriancircuit.cpp)

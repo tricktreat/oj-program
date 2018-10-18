@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.obj"
+  "CMakeFiles/pat.dir/zju_septembertest/euleriancircuit.cpp.obj"
   "pat.pdb"
   "pat.exe"
   "pat.exe.manifest"

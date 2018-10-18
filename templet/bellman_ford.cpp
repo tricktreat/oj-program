@@ -26,11 +26,12 @@ void bellmanford(){
 			d[e.to]=d[e.from]+e.cost;
 			update=true;
 		}
+		if (!update)
+		{
+			break;
+		}
 	}
-	if (!update)
-	{
-		break;
-	}
+	
 }
 
 

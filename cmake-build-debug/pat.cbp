@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Anthony/Desktop/pat/nju_summercamp/pathsum.cpp">
+		<Unit filename="C:/Users/Anthony/Desktop/pat/zju_septembertest/euleriancircuit.cpp">
 			<Option target="pat"/>
 		</Unit>
 		<Unit filename="C:/Users/Anthony/Desktop/pat/CMakeLists.txt">

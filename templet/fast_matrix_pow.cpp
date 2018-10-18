@@ -30,8 +30,8 @@ mat fast_matrix_pow(mat &A,int n){
 		{
 			B=mul(B,A),
 		}
-		B=mul(A,A);
-		n>>1;
+		A=mul(A,A);
+		n>>=1;
 	}
 
 	return B;

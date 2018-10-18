@@ -122,32 +122,32 @@ pat/fast:
 	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/build
 .PHONY : pat/fast
 
-nju_summercamp/pathsum.obj: nju_summercamp/pathsum.cpp.obj
+zju_septembertest/euleriancircuit.obj: zju_septembertest/euleriancircuit.cpp.obj
 
-.PHONY : nju_summercamp/pathsum.obj
+.PHONY : zju_septembertest/euleriancircuit.obj
 
 # target to build an object file
-nju_summercamp/pathsum.cpp.obj:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.obj
-.PHONY : nju_summercamp/pathsum.cpp.obj
+zju_septembertest/euleriancircuit.cpp.obj:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/zju_septembertest/euleriancircuit.cpp.obj
+.PHONY : zju_septembertest/euleriancircuit.cpp.obj
 
-nju_summercamp/pathsum.i: nju_summercamp/pathsum.cpp.i
+zju_septembertest/euleriancircuit.i: zju_septembertest/euleriancircuit.cpp.i
 
-.PHONY : nju_summercamp/pathsum.i
+.PHONY : zju_septembertest/euleriancircuit.i
 
 # target to preprocess a source file
-nju_summercamp/pathsum.cpp.i:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.i
-.PHONY : nju_summercamp/pathsum.cpp.i
+zju_septembertest/euleriancircuit.cpp.i:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/zju_septembertest/euleriancircuit.cpp.i
+.PHONY : zju_septembertest/euleriancircuit.cpp.i
 
-nju_summercamp/pathsum.s: nju_summercamp/pathsum.cpp.s
+zju_septembertest/euleriancircuit.s: zju_septembertest/euleriancircuit.cpp.s
 
-.PHONY : nju_summercamp/pathsum.s
+.PHONY : zju_septembertest/euleriancircuit.s
 
 # target to generate assembly for a file
-nju_summercamp/pathsum.cpp.s:
-	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/nju_summercamp/pathsum.cpp.s
-.PHONY : nju_summercamp/pathsum.cpp.s
+zju_septembertest/euleriancircuit.cpp.s:
+	$(MAKE) -f CMakeFiles\pat.dir\build.make CMakeFiles/pat.dir/zju_septembertest/euleriancircuit.cpp.s
+.PHONY : zju_septembertest/euleriancircuit.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... pat
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... nju_summercamp/pathsum.obj
-	@echo ... nju_summercamp/pathsum.i
-	@echo ... nju_summercamp/pathsum.s
+	@echo ... zju_septembertest/euleriancircuit.obj
+	@echo ... zju_septembertest/euleriancircuit.i
+	@echo ... zju_septembertest/euleriancircuit.s
 .PHONY : help
 
 

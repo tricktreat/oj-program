@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Anthony/Desktop/pat/nju_summercamp/pathsum.cpp
-cstdio
+C:/Users/Anthony/Desktop/pat/zju_septembertest/euleriancircuit.cpp
+iostream
 -
-cmath
+cstring
+-
+algorithm
 -
 
